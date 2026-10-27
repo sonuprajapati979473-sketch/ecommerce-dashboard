@@ -41,22 +41,4 @@ The frontend proxies `/api` requests to the backend.
 cd frontend && npm run build
 ```
 
-## Publish to GitHub
-1. Create a new **Public** repository on GitHub named `ecommerce-dashboard`.
-2. In VS Code terminal, from this project folder, run:
-```bash
-git init
-git add .
-git commit -m "Build React e-commerce dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/ecommerce-dashboard.git
-git push -u origin main
-```
-Replace `YOUR-USERNAME` with your GitHub username. If Git asks you to sign in, complete the browser sign-in flow.
 
-## Interview explanation
-- `useState` stores the cart.
-- `addToCart`, `updateQuantity`, and `removeFromCart` update cart state.
-- `BrowserRouter` and `Routes` provide navigation.
-- Clicking Proceed to Payment navigates to `/payment-completed`.
-- The checkout is a UI demo; it does not charge a card.
