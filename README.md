@@ -1,4 +1,4 @@
-# ShopEase — React E-commerce Dashboard
+# ShopEase React E-commerce Dashboard
 
 A simple responsive e-commerce demo built with React, Vite, React Router, and Lucide icons.
 
